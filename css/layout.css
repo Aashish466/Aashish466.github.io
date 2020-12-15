@@ -232,6 +232,72 @@ ul#nav li.current a { color: #F06000; }
 
 
 /* ------------------------------------------------------------------ */
+/* c. Files Section
+/* ------------------------------------------------------------------ */
+
+#files {
+    background: #2B2B2B;
+    padding-top: 96px;
+    padding-bottom: 66px;
+    overflow: hidden;
+}
+
+    #files a, #files a:visited {
+        color: #fff;
+    }
+
+        #files a:hover, #files a:focus {
+            color: #11ABB0;
+        }
+
+    #files h2 {
+        font: 22px/30px 'opensans-bold', sans-serif;
+        color: #fff;
+        margin-bottom: 12px;
+    }
+
+    #files p {
+        line-height: 30px;
+        color: #7A7A7A;
+    }
+
+    #files .profile-pic {
+        position: relative;
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+    }
+
+    #files .contact-details {
+        width: 41.66667%;
+    }
+
+    #files .download {
+        width: 58.33333%;
+        padding-top: 6px;
+    }
+
+    #files .main-col {
+        padding-right: 5%;
+    }
+
+    #files .download .button {
+        margin-top: 6px;
+        background: #444;
+    }
+
+        #files .download .button:hover {
+            background: #fff;
+            color: #2B2B2B;
+        }
+
+        #files .download .button i {
+            margin-right: 15px;
+            font-size: 20px;
+        }
+
+
+/* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
